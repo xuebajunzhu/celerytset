@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-
+from app01 import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^create/task/$', views.create_task),
+    url(r'^get/result/$', views.get_result),
 ]

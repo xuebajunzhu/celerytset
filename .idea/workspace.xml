@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00a77882-1587-4e90-8da7-e4069a1f2c4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/celerytest.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
@@ -9,6 +10,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app01/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app01/admin.py" afterDir="false" />
@@ -6136,7 +6138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581430932932</updated>
       <workItem from="1581430934973" duration="41000" />
-      <workItem from="1581462316063" duration="1488000" />
+      <workItem from="1581462316063" duration="1775000" />
     </task>
     <servers />
   </component>
