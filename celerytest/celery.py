@@ -6,10 +6,10 @@ import os
 from celery import Celery
 
 # set the default Django settings module for the 'celery' program.
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'demos.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'celerytest.settings')
 
-app = Celery('demos')
-
+app = Celery('celerytest')
+# app.conf.enable_utc = True #设置utc时间
 # Using a string here means the worker doesn't have to serialize
 # the configuration object to child processes.
 # - namespace='CELERY' means all celery-related configuration keys

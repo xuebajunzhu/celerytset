@@ -18,6 +18,6 @@ from django.contrib import admin
 from app01 import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^create/task/$', views.create_task),
-    url(r'^get/result/$', views.get_result),
+    url(r'^create_add/task/$', views.create_add_task),
+    url(r'^create_mul/task/$', views.create_mul_task),
 ]

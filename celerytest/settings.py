@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "app01.apps.App01Config",
+    'app01.apps.App01Config',
 ]
 
 MIDDLEWARE = [
@@ -120,7 +120,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-CELERY_BROKER_URL = 'redis://192.168.16.85:6379'
+CELERY_BROKER_URL = 'redis://192.168.1.125:6381'
 CELERY_ACCEPT_CONTENT = ['json']
-CELERY_RESULT_BACKEND = 'redis://192.168.16.85:6379'
+CELERY_RESULT_BACKEND = 'redis://192.168.1.125:6381'
 CELERY_TASK_SERIALIZER = 'json'
